@@ -1,7 +1,8 @@
-# Binary Search in Python
+# Binary Search in Python using User Input
 
-arr = [10, 20, 30, 40, 50, 60, 70]
-target = 50
+arr = list(map(int, input("Enter sorted numbers separated by space: ").split()))
+
+target = int(input("Enter element to search: "))
 
 low = 0
 high = len(arr) - 1
